@@ -6,6 +6,18 @@ Welcome to the new Final Fits package. Here lies a a series of scripts which are
 
 You can follow the latest Final Fits tutorial [here](https://gitlab.cern.ch/jspah/higgsdna_finalfits_tutorial_24/-/tree/master). Slides from an older flashgg-based tutorial series can be found [here](https://indico.cern.ch/event/963619/contributions/4112177/attachments/2151275/3627204/finalfits_tutorial_201126.pdf)
 
+## 📚 Documentation
+
+**New users should start here:**
+
+- **[QUICKSTART.md](QUICKSTART.md)** - Get up and running in minutes
+- **[INVESTIGATION.md](INVESTIGATION.md)** - Comprehensive package overview and understanding
+- **[ARCHITECTURE.md](ARCHITECTURE.md)** - System architecture and data flow diagrams
+- **[CODE_EXAMPLES.md](CODE_EXAMPLES.md)** - Examples, best practices, and common tasks
+- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Solutions to common problems
+
+Each subdirectory also contains specific README files with detailed information.
+
 ## Download and setup instructions
 
 ```
