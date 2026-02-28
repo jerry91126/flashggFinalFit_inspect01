@@ -90,6 +90,8 @@ Before you build the final models you MUST define the replacement dataset and th
  * In `tools/replacementMap.py` you need to specify the replacement (process,category) to use when the number of events is below a threshold (defined by by the `--replacementThreshold` option, where the default threshold is 100 events). The mapping is selected by the `analysis` option in the input config file. For a thorough example see the `STXS` mapping. You will need to produce a similar map, configured for your analysis.
 
  * In `tools/XSBRMap.py` you need to specify the normalisation of your signal processes. We use the [data files](https://github.com/cms-analysis/HiggsAnalysis-CombinedLimit/tree/102x/data/lhc-hxswg/sm) in combine to build MH-dependent cross sections and branching ratios for the major Higgs boson production modes and decay channels. You then need to specify in the mapping how each of your signal processes are normalised according to these cross sections/branching ratios (see `factor` in `STXS` map for an example). If your signal process has an arbitrary normalisation e.g. 0.001 pb with a branching ratio of 1 then you can use the `'mode':'constant'` feature (see lines 10 and 11). Again the mapping is selected by the `analysis` option in the input config file.
+   
+   **For a comprehensive guide on XSBRMap**, see **[XSBRMAP_GUIDE.md](XSBRMAP_GUIDE.md)** which explains the structure, usage, and best practices in detail.
 
 You are now ready to run the actual fit:
 ```
