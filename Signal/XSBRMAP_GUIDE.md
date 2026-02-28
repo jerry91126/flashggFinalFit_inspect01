@@ -27,13 +27,13 @@ XSBRMap is a configuration dictionary defined in `Signal/tools/XSBRMap.py` that 
 The final signal model normalization follows this equation:
 
 ```
-N_ij = (σ × BR)_i × (ε × A)_ij × L
+N(i,j) = (σ × BR)(i) × (ε × A)(i,j) × L
 ```
 
 Where:
-- `N_ij` = number of signal events for process *i* in category *j*
-- `(σ × BR)_i` = cross section × branching ratio for process *i* → **provided by XSBRMap**
-- `(ε × A)_ij` = efficiency × acceptance for process *i* in category *j* → calculated from HiggsDNA sum of weights
+- `N(i,j)` = number of signal events for process *i* in category *j*
+- `(σ × BR)(i)` = cross section × branching ratio for process *i* → **provided by XSBRMap**
+- `(ε × A)(i,j)` = efficiency × acceptance for process *i* in category *j* → calculated from HiggsDNA sum of weights
 - `L` = integrated luminosity
 
 XSBRMap provides the theoretically-predicted cross sections and branching ratios, ensuring your signal models are normalized to SM predictions or specific BSM scenarios.
@@ -354,7 +354,7 @@ For any signal modeling task, ensure your XSBRMap is:
 - **Signal Modeling**: `Signal/README.md` - Full signal modeling workflow
 - **Replacement Map**: `Signal/tools/replacementMap.py` - Process replacement strategy
 - **Configuration**: `QUICKSTART.md` - Setting up your analysis config
-- **STXS Guide**: `INVESTIGATION.md` - Understanding STXS measurements
+- **Package Overview**: `INVESTIGATION.md` - Comprehensive package overview including STXS framework
 
 ## Questions?
 
