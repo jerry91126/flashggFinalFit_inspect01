@@ -323,7 +323,7 @@ When adding a new analysis XSBRMap:
 Example:
 ```python
 # STXS ggH bins: fractions from STXS stage 1.2 theory predictions
-# Reference: arXiv:XXXX.XXXXX
+# Reference: LHC Higgs Cross Section Working Group recommendations
 globalXSBRMap['STXS']['GG2H_0J_PTH_0_10'] = {'mode': 'ggH', 'factor': 0.1387}  # 13.87% of ggH
 ```
 
