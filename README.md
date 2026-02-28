@@ -55,6 +55,7 @@ source setup.sh
 The Finals Fits package contains several subfolders which are used for the following steps:
 
 * Create the Signal Model (see `Signal` dir)
+  - For detailed guidance on XSBRMap (signal normalization), see `Signal/XSBRMAP_GUIDE.md`
 * Create the Background Model (see `Background` dir)
 * Generate a Datacard (see `Datacard` dir)
 * Running fits with combine (see `Combine` dir)
